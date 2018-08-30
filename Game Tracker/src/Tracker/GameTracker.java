@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 //import java.io.IOException;
 
 // TO DO
-// Small Test!
+// Remove games maybe?
 
 public class GameTracker 
 {
@@ -177,7 +177,7 @@ public class GameTracker
 			StartProgram();
 		}
 	}	
-	public static void ConsoleSelection(String select)
+	public static void ConsoleSelection(String select) // TODO ADD ALL THE OTHER CONSOLES
 	{
 	
 		if(select.equalsIgnoreCase("Xbox One") || select.equalsIgnoreCase("Xbone")) 
